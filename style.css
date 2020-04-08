@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #add8e6;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.piggyvest {
+  text-align: center;
+  padding-top: 3em;
+}
+.form-container {
+  background: white;
+  border-radius: 10px 10px 10px 0;
+  width: 30%;
+  margin: 2em auto;
+  position: relative;
+}
+.form-container > h2 {
+  padding-top: 2em;
+  color: #062863;
+  text-transform: capitalize;
+  text-align: center;
+}
+h2 + p {
+  text-transform: capitalize;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 0.5em;
+}
+.form-item-container {
+  width: 85%;
+  margin: 0 auto;
+}
+.form-item {
+  margin: 2em 0;
+}
+.form-item label {
+  font-size: 0.75em;
+  color: rgb(82, 81, 81);
+  margin: 0.8em 0;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 13px;
+}
+input {
+  background: rgb(245, 245, 247);
+  padding: 1.6em;
+  width: 100%;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+::placeholder {
+  font-size: 1em;
+  color: rgb(137, 137, 145);
+  text-transform: capitalize;
+}
+select {
+  padding: 1rem;
+  background-color: rgb(245, 245, 247);
+  border: none;
+  width: 100%;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom: 2em;
+}
+.option {
+  padding: 16px;
+  line-height: 1.5;
+  color: rgb(26, 32, 44);
+  margin-left: 2px;
+  margin-right: 2px;
+  max-width: calc(100% - 8px);
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  top: 50%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+button {
+  color: white;
+  background-color: blue;
+  width: 90%;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  margin-bottom: 1em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: ease-in-out;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: #062863;
+}
+footer {
+  height: 30vh;
+}
+.login-link {
+  text-align: center;
+}
+.login-link a {
+  font-size: 0.8em;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .form-container {
+    width: 80%;
+  }
+}
